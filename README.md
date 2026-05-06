@@ -21,15 +21,15 @@ FinGuard is an **AI-powered aquaculture monitoring and disease detection platfor
 
 ## 📱 Product Preview
 
-| **Splash Screen** | **Language Selection** | **Fish AI Diagnostic** |
+| **Splash Screen** | **Language Selection**  | **Dashboard** |
 |:---:|:---:|:---:|
-| ![Splash Screen](Product%20Preview/01-splash-screen.png) | ![Language Selection](Product%20Preview/02-language-selection.png) | ![Fish AI Diagnostic](Product%20Preview/03-fish-ai-diagnostic.png) |
-| *Aquaculture intelligence, ready at launch.* | *Choose from English, Hindi, Bengali, Marathi & more.* | *Upload symptoms for instant 98% accuracy pathology results.* |
+| ![Splash Screen](Product%20Preview/Splash_Screen.png) | ![Language Selection](Product%20Preview/Language_Selection.png) | ![Dashboard](Product%20Preview/User_Dashboard.png) |
+| *Aquaculture intelligence, ready at launch.* | *Choose from English, Hindi, Bengali, Marathi & more.* | *Your farm's health and activity at a glance.* |
 
-| **Treatment Protocol** | **Government Hub** | **Dashboard** |
+| **Fish AI Diagnostic** | **Treatment Protocol** | **Government Hub** |
 |:---:|:---:|:---:|
-| ![Treatment Protocol](Product%20Preview/04-treatment-protocol.png) | ![Government Hub](Product%20Preview/05-government-hub.png) | ![Dashboard](Product%20Preview/06-dashboard.png) |
-| *Step-by-step treatment and medication guidance.* | *Unlock government subsidies, loans & training schemes.* | *Your farm's health and activity at a glance.* |
+ ![Fish AI Diagnostic](Product%20Preview/Fish_ai_diagnostic.png) | ![Treatment Protocol](Product%20Preview/Treatment_Protocol.png) | ![Government Hub](Product%20Preview/Government_Hub.png) | 
+| *Upload symptoms for instant 98% accuracy pathology results.* | *Step-by-step treatment and medication guidance.* | *Unlock government subsidies, loans & training schemes.* | 
 
 ---
 
