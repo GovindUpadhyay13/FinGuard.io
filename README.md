@@ -203,27 +203,6 @@ npm run lint
 
 ---
 
-## 🤝 Contributing
-
-Contributions are welcome! Help make aquaculture more sustainable and accessible for farmers worldwide.
-
-1. **Fork** the repository
-2. **Create** your feature branch
-   ```bash
-   git checkout -b feature/your-feature-name
-   ```
-3. **Commit** your changes
-   ```bash
-   git commit -m "feat: add your feature description"
-   ```
-4. **Push** to your branch
-   ```bash
-   git push origin feature/your-feature-name
-   ```
-5. **Open** a Pull Request
-
----
-
 ## 📄 License
 
 Distributed under the **MIT License**. See [`LICENSE`](LICENSE) for more information.
