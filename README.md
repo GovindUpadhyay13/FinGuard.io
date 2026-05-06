@@ -1,14 +1,20 @@
-# FinGuard.io 🐟🛡️
-
-**Aquaculture Intelligence for the Next Billion Farmers**
-
-FinGuard is an AI-powered aquaculture monitoring and disease detection platform designed specifically for small-scale fish farmers. By combining computer vision, machine learning, and voice-first technology, FinGuard transforms aquaculture from reactive crisis management to proactive, data-driven farming — accessible to every farmer, regardless of literacy.
-
 <div align="center">
-  <img src="https://img.shields.io/badge/TypeScript-97.8%25-blue?style=flat-square&logo=typescript" alt="TypeScript"/>
-  <img src="https://img.shields.io/badge/Platform-Mobile-green?style=flat-square" alt="Mobile"/>
-  <img src="https://img.shields.io/badge/AI%20Accuracy-98%25-brightgreen?style=flat-square" alt="AI Accuracy"/>
-  <img src="https://img.shields.io/badge/License-MIT-yellow?style=flat-square" alt="MIT License"/>
+
+# 🐟🛡️ FinGuard.io
+
+### Aquaculture Intelligence for the Next Billion Farmers
+
+FinGuard is an **AI-powered aquaculture monitoring and disease detection platform** built for small-scale fish farmers. Combining computer vision, machine learning, and voice-first technology, it transforms aquaculture from reactive crisis management into proactive, data-driven farming — accessible to every farmer, regardless of literacy.
+
+<br/>
+
+[![TypeScript](https://img.shields.io/badge/TypeScript-97.8%25-3178C6?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
+[![React](https://img.shields.io/badge/React-19-61DAFB?style=for-the-badge&logo=react&logoColor=black)](https://react.dev/)
+[![Vite](https://img.shields.io/badge/Vite-6-646CFF?style=for-the-badge&logo=vite&logoColor=white)](https://vitejs.dev/)
+[![Tailwind CSS](https://img.shields.io/badge/TailwindCSS-4-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)](https://tailwindcss.com/)
+[![AI Accuracy](https://img.shields.io/badge/AI%20Accuracy-98%25-22C55E?style=for-the-badge)](https://github.com/GovindUpadhyay13/FinGuard.io)
+[![License: MIT](https://img.shields.io/badge/License-MIT-F59E0B?style=for-the-badge)](LICENSE)
+
 </div>
 
 ---
@@ -27,25 +33,127 @@ FinGuard is an AI-powered aquaculture monitoring and disease detection platform 
 
 ---
 
+## 📋 Table of Contents
+
+- [✨ Key Features](#-key-features)
+- [🏗️ Project Structure](#️-project-structure)
+- [🚀 Technology Stack](#-technology-stack)
+- [🛠️ Getting Started](#️-getting-started)
+- [🤝 Contributing](#-contributing)
+- [📄 License](#-license)
+
+---
+
 ## ✨ Key Features
 
-| Feature | Description |
-|---|---|
-| 🔍 **AI Fish Diagnostic** | Capture fish symptoms via camera for instant pathology results powered by computer vision (98% accuracy). |
-| 💊 **Treatment Protocols** | Get actionable isolation steps and medical recommendations (e.g., Oxytetracycline, Kanamycin, Baytril). |
-| 🌍 **Multilingual Support** | Full support for English, Hindi (हिन्दी), Bengali (বাংলা), Marathi (मराठी), and more. |
-| 🏛️ **Government Hub** | Browse and filter government subsidies, loans, and training programs (e.g., PMMSY – 40–60% financial subsidy). |
-| 🗣️ **Voice-First Accessibility** | Interact with the platform through voice commands in native dialects, built for low-literacy users. |
-| 📈 **Proactive Monitoring** | Shift from reactive crisis management to data-driven, sustainable fish farming. |
+<table>
+<tr>
+<td width="50%">
+
+### 🔍 AI Fish Diagnostic
+Capture fish symptoms via camera for instant pathology results powered by computer vision — **98% accuracy**.
+
+</td>
+<td width="50%">
+
+### 💊 Treatment Protocols
+Actionable isolation steps and evidence-based medication guidance (e.g., Oxytetracycline, Kanamycin, Baytril).
+
+</td>
+</tr>
+<tr>
+<td width="50%">
+
+### 🌍 Multilingual Support
+Full support for **English, Hindi (हिन्दी), Bengali (বাংলা), Marathi (मराठी)** and more native languages.
+
+</td>
+<td width="50%">
+
+### 🏛️ Government Schemes Hub
+Browse and filter subsidies, loans & training programs — including **PMMSY** (40–60% financial subsidy).
+
+</td>
+</tr>
+<tr>
+<td width="50%">
+
+### 🗣️ Voice-First Accessibility
+Interact through voice commands in native dialects — built specifically for low-literacy users.
+
+</td>
+<td width="50%">
+
+### 📊 Farm Analytics & Dashboard
+Track your farm's health metrics, activity logs, and trends at a glance with real-time charts.
+
+</td>
+</tr>
+<tr>
+<td width="50%">
+
+### 🛒 Marketplace
+Connect with suppliers and buyers directly within the app for inputs, equipment, and produce.
+
+</td>
+<td width="50%">
+
+### 🥶 Cold Storage Locator
+Find nearby cold storage facilities to reduce post-harvest losses and improve fish quality.
+
+</td>
+</tr>
+</table>
+
+---
+
+## 🏗️ Project Structure
+
+```
+FinGuard.io/
+├── screens/               # Full-page screen components
+│   ├── SplashScreen.tsx
+│   ├── LanguageSelection.tsx
+│   ├── Login.tsx
+│   ├── Dashboard.tsx
+│   ├── DiseaseDetection.tsx
+│   ├── Analytics.tsx
+│   ├── Schemes.tsx
+│   ├── Marketplace.tsx
+│   ├── ColdStorage.tsx
+│   └── Profile.tsx
+├── components/            # Reusable UI components
+│   ├── AIAssistant.tsx
+│   ├── BottomNav.tsx
+│   ├── CircularGauge.tsx
+│   └── TutorialOverlay.tsx
+├── services/              # Business logic & external integrations
+│   ├── geminiService.ts       # Google Gemini AI integration
+│   ├── aiAssistantService.ts
+│   ├── weatherService.ts
+│   ├── locationService.ts
+│   ├── notificationService.ts
+│   ├── smsService.ts
+│   └── audioUtils.ts
+├── App.tsx                # Root component & navigation
+├── types.ts               # Shared TypeScript types
+├── constants.tsx          # App-wide constants
+└── index.tsx              # Entry point
+```
 
 ---
 
 ## 🚀 Technology Stack
 
 | Layer | Technology |
-|---|---|
-| **Frontend** | TypeScript (97.8%), HTML, CSS |
-| **AI / ML** | Computer Vision & ML for disease classification |
+|:---|:---|
+| **UI Framework** | React 19 + TypeScript |
+| **Build Tool** | Vite 6 |
+| **Styling** | Tailwind CSS 4 |
+| **Animations** | Motion (Framer Motion) |
+| **Charts** | Recharts |
+| **Icons** | Lucide React |
+| **AI / ML** | Google Gemini API — computer vision & NLP |
 | **Accessibility** | Voice-to-Text, Multilingual UI/UX |
 | **Platform** | Progressive Web App (PWA) |
 
@@ -54,31 +162,44 @@ FinGuard is an AI-powered aquaculture monitoring and disease detection platform 
 ## 🛠️ Getting Started
 
 ### Prerequisites
-- Node.js (v18+) & npm / yarn
-- A mobile emulator or physical device to test camera features
+
+- **Node.js** v18+ and **npm**
+- A mobile device or browser with camera access to test AI diagnostic features
 
 ### Installation
 
-1. **Clone the repository:**
-   ```bash
-   git clone https://github.com/GovindUpadhyay13/FinGuard.io.git
-   cd FinGuard.io
-   ```
+**1. Clone the repository**
+```bash
+git clone https://github.com/GovindUpadhyay13/FinGuard.io.git
+cd FinGuard.io
+```
 
-2. **Install dependencies:**
-   ```bash
-   npm install
-   ```
+**2. Install dependencies**
+```bash
+npm install
+```
 
-3. **Run the development server:**
-   ```bash
-   npm start
-   ```
+**3. Start the development server**
+```bash
+npm run dev
+```
 
-4. **Build for production:**
-   ```bash
-   npm run build
-   ```
+The app will be available at `http://localhost:5173`.
+
+**4. Build for production**
+```bash
+npm run build
+```
+
+**5. Preview the production build**
+```bash
+npm run preview
+```
+
+**6. Type-check the project**
+```bash
+npm run lint
+```
 
 ---
 
@@ -86,21 +207,34 @@ FinGuard is an AI-powered aquaculture monitoring and disease detection platform 
 
 Contributions are welcome! Help make aquaculture more sustainable and accessible for farmers worldwide.
 
-1. Fork the project.
-2. Create your feature branch: `git checkout -b feature/AmazingFeature`
-3. Commit your changes: `git commit -m 'Add AmazingFeature'`
-4. Push to the branch: `git push origin feature/AmazingFeature`
-5. Open a Pull Request.
+1. **Fork** the repository
+2. **Create** your feature branch
+   ```bash
+   git checkout -b feature/your-feature-name
+   ```
+3. **Commit** your changes
+   ```bash
+   git commit -m "feat: add your feature description"
+   ```
+4. **Push** to your branch
+   ```bash
+   git push origin feature/your-feature-name
+   ```
+5. **Open** a Pull Request
 
 ---
 
 ## 📄 License
 
-Distributed under the MIT License. See `LICENSE` for more information.
+Distributed under the **MIT License**. See [`LICENSE`](LICENSE) for more information.
 
 ---
 
 <div align="center">
-  <strong>Developed with ❤️ by <a href="https://github.com/GovindUpadhyay13">Govind Upadhyay</a></strong><br/>
-  <em>Transforming aquaculture, one pond at a time.</em>
+  <br/>
+  <strong>Developed with ❤️ by <a href="https://github.com/GovindUpadhyay13">Govind Upadhyay</a></strong>
+  <br/>
+  <em>Transforming aquaculture, one pond at a time. 🐟</em>
+  <br/><br/>
+  <a href="https://github.com/GovindUpadhyay13/FinGuard.io/stargazers">⭐ Star this repo if you find it useful!</a>
 </div>
