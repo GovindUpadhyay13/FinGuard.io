@@ -1,6 +1,6 @@
 <div align="center">
 
-## 🐟🛡️ FinGuard.io
+# 🐟🛡️ FinGuard.io
 
 ### Aquaculture Intelligence for the Next Billion Farmers
 
