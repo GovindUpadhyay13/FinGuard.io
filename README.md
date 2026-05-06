@@ -2,73 +2,94 @@
 
 **Aquaculture Intelligence for the Next Billion Farmers**
 
-FinGuard is an AI-powered aquaculture monitoring and disease detection platform designed specifically for small-scale fish farmers. By combining computer vision, machine learning, and voice-first technology, FinGuard transforms aquaculture from reactive crisis management to proactive, data-driven farming accessible to farmers regardless of literacy.
+FinGuard is an AI-powered aquaculture monitoring and disease detection platform designed specifically for small-scale fish farmers. By combining computer vision, machine learning, and voice-first technology, FinGuard transforms aquaculture from reactive crisis management to proactive, data-driven farming — accessible to every farmer, regardless of literacy.
+
+<div align="center">
+  <img src="https://img.shields.io/badge/TypeScript-97.8%25-blue?style=flat-square&logo=typescript" alt="TypeScript"/>
+  <img src="https://img.shields.io/badge/Platform-Mobile-green?style=flat-square" alt="Mobile"/>
+  <img src="https://img.shields.io/badge/AI%20Accuracy-98%25-brightgreen?style=flat-square" alt="AI Accuracy"/>
+  <img src="https://img.shields.io/badge/License-MIT-yellow?style=flat-square" alt="MIT License"/>
+</div>
 
 ---
 
-## 📱 Visual Overview
+## 📱 Product Preview
 
-| **Splash Screen** | **Multilingual Support** |
-|:---:|:---:|
-| ![Splash Screen](image1) | ![Language Selection](image2) |
-| *AI-powered aquaculture intelligence.* | *Accessible in local languages like Hindi, Bengali, and Marathi.* |
+| **Splash Screen** | **Language Selection** | **Fish AI Diagnostic** |
+|:---:|:---:|:---:|
+| ![Splash Screen](Product%20Preview/01-splash-screen.png) | ![Language Selection](Product%20Preview/02-language-selection.png) | ![Fish AI Diagnostic](Product%20Preview/03-fish-ai-diagnostic.png) |
+| *Aquaculture intelligence, ready at launch.* | *Choose from English, Hindi, Bengali, Marathi & more.* | *Upload symptoms for instant 98% accuracy pathology results.* |
 
-| **AI Diagnostics** | **Treatment Protocols** |
-|:---:|:---:|
-| ![Detection](image3) | ![Treatment](image4) |
-| *Real-time disease detection with 98% accuracy.* | *Actionable pathology results and treatment steps.* |
+| **Treatment Protocol** | **Government Hub** | **Dashboard** |
+|:---:|:---:|:---:|
+| ![Treatment Protocol](Product%20Preview/04-treatment-protocol.png) | ![Government Hub](Product%20Preview/05-government-hub.png) | ![Dashboard](Product%20Preview/06-dashboard.png) |
+| *Step-by-step treatment and medication guidance.* | *Unlock government subsidies, loans & training schemes.* | *Your farm's health and activity at a glance.* |
 
 ---
 
 ## ✨ Key Features
 
--   **🔍 AI Fish Diagnostic:** Capture symptoms via your phone camera for instant pathology results using advanced computer vision.
--   **🗣️ Voice-First Technology:** Designed for accessibility, allowing farmers to interact with the platform through voice commands in their native dialects.
--   **🌍 Local Language Support:** Full support for English, Hindi (हिन्दी), Bengali (বাংলা), Marathi (मराठी), and more.
--   **💊 Treatment Protocols:** Get immediate isolation steps and medical recommendations (e.g., Oxytetracycline, Kanamycin) for identified diseases.
--   **📈 Proactive Monitoring:** Move away from reactive crisis management to data-driven, sustainable farming.
+| Feature | Description |
+|---|---|
+| 🔍 **AI Fish Diagnostic** | Capture fish symptoms via camera for instant pathology results powered by computer vision (98% accuracy). |
+| 💊 **Treatment Protocols** | Get actionable isolation steps and medical recommendations (e.g., Oxytetracycline, Kanamycin, Baytril). |
+| 🌍 **Multilingual Support** | Full support for English, Hindi (हिन्दी), Bengali (বাংলা), Marathi (मराठी), and more. |
+| 🏛️ **Government Hub** | Browse and filter government subsidies, loans, and training programs (e.g., PMMSY – 40–60% financial subsidy). |
+| 🗣️ **Voice-First Accessibility** | Interact with the platform through voice commands in native dialects, built for low-literacy users. |
+| 📈 **Proactive Monitoring** | Shift from reactive crisis management to data-driven, sustainable fish farming. |
 
 ---
 
 ## 🚀 Technology Stack
 
--   **Frontend:** TypeScript (97.8%), HTML
--   **AI/ML:** Computer Vision & Machine Learning for disease classification.
--   **Accessibility:** Voice-to-Text and Multilingual UI/UX components.
+| Layer | Technology |
+|---|---|
+| **Frontend** | TypeScript (97.8%), HTML, CSS |
+| **AI / ML** | Computer Vision & ML for disease classification |
+| **Accessibility** | Voice-to-Text, Multilingual UI/UX |
+| **Platform** | Progressive Web App (PWA) |
 
 ---
 
 ## 🛠️ Getting Started
 
 ### Prerequisites
--   Node.js & npm/yarn
--   A mobile emulator or physical device for testing camera features.
+- Node.js (v18+) & npm / yarn
+- A mobile emulator or physical device to test camera features
 
 ### Installation
-1.  **Clone the repository:**
-    ```bash
-    git clone https://github.com/GovindUpadhyay13/FinGuard.io.git
-    cd FinGuard.io
-    ```
-2.  **Install dependencies:**
-    ```bash
-    npm install
-    ```
-3.  **Run the application:**
-    ```bash
-    npm start
-    ```
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/GovindUpadhyay13/FinGuard.io.git
+   cd FinGuard.io
+   ```
+
+2. **Install dependencies:**
+   ```bash
+   npm install
+   ```
+
+3. **Run the development server:**
+   ```bash
+   npm start
+   ```
+
+4. **Build for production:**
+   ```bash
+   npm run build
+   ```
 
 ---
 
 ## 🤝 Contributing
 
-We welcome contributions from the community to help make aquaculture more sustainable and accessible! 
+Contributions are welcome! Help make aquaculture more sustainable and accessible for farmers worldwide.
 
-1. Fork the Project.
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`).
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`).
-4. Push to the Branch (`git push origin feature/AmazingFeature`).
+1. Fork the project.
+2. Create your feature branch: `git checkout -b feature/AmazingFeature`
+3. Commit your changes: `git commit -m 'Add AmazingFeature'`
+4. Push to the branch: `git push origin feature/AmazingFeature`
 5. Open a Pull Request.
 
 ---
@@ -79,5 +100,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 ---
 
-**Developed with ❤️ by [Govind Upadhyay](https://github.com/GovindUpadhyay13)**  
-*Transforming aquaculture, one pond at a time.*
+<div align="center">
+  <strong>Developed with ❤️ by <a href="https://github.com/GovindUpadhyay13">Govind Upadhyay</a></strong><br/>
+  <em>Transforming aquaculture, one pond at a time.</em>
+</div>
